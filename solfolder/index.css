@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin:0;
+}
+*{
+  box-sizing: border-box;
+ }
+.container-fluid {
+  margin:10px;
+}
+
+#header-nav {
+  background-color: solid white;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1{
+  color: pink;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height:.05;
+  text-align: left;
+}
+#nav-list{
+  margin-top: 10px;
+}
+#nav-list a{
+  text-align: center;
+  color: white;
+}
+#collapsable-nav {
+  background-color: grey;
+}
+#collapsable-nav ul li hr{
+  width: 100%
+}
+.contentsection{
+  background-color: blue;
+}
+p{
+  padding: 20px
+}
+
+/* Extra small devices */
+@media (max-width: 767px) { .col-xs-12 
+}
+  .col-xs-12{
+    width: 100%;
+
+/* Small devices */
+@media (min-width:768px) and (max-width: 991px) {
+
+ }
+
+/* Medium devices */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+}
+
